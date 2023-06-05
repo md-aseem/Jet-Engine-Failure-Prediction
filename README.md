@@ -1,0 +1,9 @@
+This project involves the analysis and prediction of the Remaining Useful Life (RUL) of engines based on sensor data. The dataset consists of time series data collected from multiple engines, including various sensor readings and operational settings. The goal is to develop machine learning models that can accurately predict the RUL of each engine, which represents the remaining operational lifespan.
+
+The project follows a step-by-step approach, starting with data preprocessing and feature engineering. The data is cleaned, missing values are handled, and additional features are derived. Exploratory Data Analysis (EDA) techniques are applied to gain insights into the data and visualize the relationships between different variables.
+
+Two different types of models are implemented and evaluated: an Artificial Neural Network (ANN) and a Long Short-Term Memory (LSTM) network. The ANN model is designed using TensorFlow and consists of multiple dense layers. It is trained and evaluated using the training and validation datasets. The LSTM model is implemented to capture temporal dependencies in the data. The model architecture includes LSTM layers, batch normalization, and dropout regularization. It is trained and evaluated using the time series data.
+
+Evaluation metrics such as Mean Absolute Error (MAE) and Mean Squared Error (MSE) are used to assess the performance of the models. The trained models are then used to make predictions on the test dataset and compare the predicted RUL values with the actual RUL values.
+
+The project concludes with a discussion of the results, including the accuracy of the models in predicting the RUL of the engines. The findings and insights gained from the analysis can be valuable in predictive maintenance and decision-making processes in industries where engines play a crucial role.
